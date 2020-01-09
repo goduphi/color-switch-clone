@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour
 {
-	private Rigidbody2D BallBody;
-	private SpriteRenderer sr;
-	private AudioSource JumpAudio;
-	private AudioSource ColorSwitchAudio;
-	
 	public float jumpSpeed = 1f;
 	
 	public string CurrentColor;
 	
 	public Color[] color = new Color[4];
+	
+	private Rigidbody2D BallBody;
+	private SpriteRenderer sr;
+	private AudioSource JumpAudio;
+	private AudioSource ColorSwitchAudio;
 	
 	void Awake()
 	{

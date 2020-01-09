@@ -7,15 +7,15 @@ public class ScoreScript : MonoBehaviour
 {
 	public GameObject Star;
 	public GameObject StarExplode;
+	private AudioSource ScoreAudio;
 	
 	private int TotalScore;
 	private Text ScoreText;
-	private AudioSource ScoreAudio;
 	
 	void Awake()
 	{
 		ScoreText = GameObject.Find("ScoreText").GetComponent<Text>();
-		ScoreAudio = Star.GetComponent<AudioSource>();
+		ScoreAudio = GameObject.FindGameObjectWithTag("Score").GetComponent<AudioSource>();
 	}
 	
 	void OnTriggerEnter2D(Collider2D target)

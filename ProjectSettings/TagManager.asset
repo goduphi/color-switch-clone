@@ -11,6 +11,7 @@ TagManager:
   - Purple
   - Star
   - Ball
+  - Score
   layers:
   - Default
   - TransparentFX
