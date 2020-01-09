@@ -20,7 +20,7 @@ public class BallScript : MonoBehaviour
 		BallBody = GetComponent<Rigidbody2D>();
 		sr = GetComponent<SpriteRenderer>();
 		JumpAudio = GetComponent<AudioSource>();
-		ColorSwitchAudio = GameObject.FindGameObjectWithTag("ColorChanger").GetComponent<AudioSource>();
+		ColorSwitchAudio = GameObject.FindGameObjectWithTag("ColorChangerAudio").GetComponent<AudioSource>();
 	}
 	// Use this for initialization
 	void Start ()

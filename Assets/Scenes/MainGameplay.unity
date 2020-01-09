@@ -349,8 +349,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 82376704492334914, guid: 35da3b7fe85ee4048800f55cf5447a62, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35da3b7fe85ee4048800f55cf5447a62, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &590788111
@@ -888,7 +887,7 @@ GameObject:
   - component: {fileID: 1787348220}
   m_Layer: 0
   m_Name: Color Changer Audio
-  m_TagString: ColorChanger
+  m_TagString: ColorChangerAudio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

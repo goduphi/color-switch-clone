@@ -12,6 +12,7 @@ TagManager:
   - Star
   - Ball
   - Score
+  - ColorChangerAudio
   layers:
   - Default
   - TransparentFX
