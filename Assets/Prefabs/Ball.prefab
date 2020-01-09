@@ -178,6 +178,8 @@ MonoBehaviour:
   - {r: 1, g: 0.9882353, b: 0, a: 1}
   - {r: 0, g: 1, b: 0.9882353, a: 1}
   - {r: 1, g: 0, b: 0.47058824, a: 1}
+  BallExplode: {fileID: 1645672856052252, guid: 3ef20becde3cd1142933cdbb632e50c4,
+    type: 2}
 --- !u!114 &114676043780603644
 MonoBehaviour:
   m_ObjectHideFlags: 1

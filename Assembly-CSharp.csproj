@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
      <Compile Include="Assets\Scripts\RotatorScript.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
  <Reference Include="UnityEngine.UI">

@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallScript : MonoBehaviour
 {
 	public float jumpSpeed = 1f;
-	
 	public string CurrentColor;
-	
 	public Color[] color = new Color[4];
 	
 	private Rigidbody2D BallBody;
@@ -25,6 +24,7 @@ public class BallScript : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		Time.timeScale = 1f;
 		SetRandomColor();
 	}
 	
@@ -43,6 +43,15 @@ public class BallScript : MonoBehaviour
 			//destroys the current color changer
 			Destroy(color.gameObject);
 			return;
+		}
+		
+		if(color.tag == "Star")
+			return;
+		
+		if(color.tag != CurrentColor)
+		{
+			Time.timeScale = 0f;
+			SceneManager.LoadScene("MainMenu");
 		}
 	}
 	
